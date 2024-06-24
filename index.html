@@ -24,7 +24,75 @@ layout: default
 </div>
 
 
-<!-- <p id="landing-page-text"> Hi! My name is Fanruo.</p> -->
+<!-- <p id="landing-page-text"> Hi! My name is Fanruo Wang.</p> -->
 <p id="landing-page-text"> 你好哇. 我的战友。 </p>
-<p id="landing-page-text-small"> I am a Ph.D. student at Universityof Rochester
+<p id="landing-page-text-small"> I am a Ph.D. student at University of Rochester</p> 
+
+<p id="landing-page-text-small"> 
+Besides the main research focus, I am also interested in topics under knowledge graph and responsible data science. I keep my eye on diverse innovative AI applications and enjoy brainstorming and conversations on related ideas with people from industry and academia.     
+</p> 
+<p id="landing-page-text-small"> Before joining UofR, I did my undergraduate study at School of Management, University of Science and Technology of China </a> and graduated with B.S. in Statistics. 
+</p>
+<p id="landing-page-text-small">  </p>
+<p> </p>
+
+
+<!-- <div class="blog">
+    <h1>Publications:</h1>
+  <ul>
+    {% for post in site.categories.science %}
+      {% if post.work-type == 'Paper' %}
+        <li>
+          <p> {{ post.ref-title }}. </p>
+          <p id="paper-author"> {{ post.ref-authors }}. </p>
+          <p id="paper-info"> {{ post.ref-info }}. <a href="{{post.ref-link}}"> pdf </a>. 
+            {% if post.ref-link-code %}
+            Code avalible at: <a href="{{post.ref-link-code}}"> {{post.ref-link-code}} </a> 
+            {% endif %}
+          </p>
+        </li>
+      {% endif %}
+    {% endfor %}
+  <ul>
+</div> -->
+
+<!-- <div class="blog">
+    <h1>Stream:</h1>
+    <ul>
+        {% for post in site.categories.diary %}
+           {% if post.work-type == 'onmainpage' %}
+            <li>
+              <p> {{ post.ref-title }}. </p>
+              <p id="paper-author"> {{ post.ref-authors }}. </p>
+              <p id="paper-info"> {{ post.ref-info }}. <a href="{{post.ref-link}}"> pdf </a>. 
+                {% if post.ref-link-code %}
+                Code avalible at: <a href="{{post.ref-link-code}}"> {{post.ref-link-code}} </a> 
+                {% endif %}
+              </p>
+            </li>
+          {% endif %}
+        {% endfor %}
+    </ul>
+</div> -->
+
+<!-- <div class="blog">
+    <h1>Projects:</h1>
+    <ul>
+        {% for post in site.categories.project %}
+           <li>
+            <span class="date">{{ post.date | date: '%Y %b %d' }}</span> - <a href="{{ post.url }}">{{ post.title }}</a>
+           </li>
+        {% endfor %}
+    </ul>
+</div> -->
+
+<!-- <div class="blog">
+    <h1>shares:</h1>
+    <ul>
+        {% for post in site.categories.shares %}
+           <li>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
 </div> -->
